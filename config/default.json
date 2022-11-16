@@ -1,0 +1,4 @@
+{
+    "appName": "squanderServer",
+    "db": "mongodb://localhost/squanderdb"
+}
