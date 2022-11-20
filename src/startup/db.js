@@ -3,8 +3,8 @@ const config = require('config');
 
 module.exports = function(){
 
-    const mongoUri = 'mongodb://localhost/squanderdb';
-    //const mongoUri = 'mongodb+srv://admin:admin@cluster0.fyb0my4.mongodb.net/squanderdb'
+    //const mongoUri = 'mongodb://localhost/squanderdb';
+    const mongoUri = 'mongodb+srv://admin:admin@cluster0.fyb0my4.mongodb.net/squanderdb'
     mongoose.connect(mongoUri);
 
     mongoose.connection.on('connected',()=>{
