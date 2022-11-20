@@ -1,4 +1,5 @@
 require('./models/User');
+require('./models/Account')
 
 const express = require('express');
 const bodyParser = require('body-parser');
